@@ -1,0 +1,149 @@
+@media(max-width:1140px){
+    .main__box-bottom-products{
+        gap: 30px;
+    }
+}
+@media(max-width:900px){
+    .main__box-main,
+    .main__box-center{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .header__main-title{
+        font-size: 55px;
+    }
+   p{
+    font-size: 15px;
+   } 
+}
+@media(max-width:800px){
+    p{
+        font-size: 12px;
+    }
+    .main__box-bottom-right{
+        margin-left: 25px;
+    }
+    .main__box-bottom-left{
+        margin-right: 25px;
+    }
+}
+@media(max-width:750px){
+    .header__nav-box{
+        flex-direction: row;
+    }
+    .nav__box-right{
+       align-items: center;
+        width: 150px;
+    }
+    .heqader__icon{
+        align-items: center;
+    
+    }
+    .nav__box-left{
+        width: 350px;
+    }
+    .main__box-bottom-products{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    p{
+        font-size: 10px;
+    }
+    .headphones{
+        width: 350px;
+        height: 350px;
+    }
+    .image{
+        width: 140px;
+        height: 350px;
+    }
+    .img-headphones{
+        width: 350px;
+        height: 300px;
+    }
+    .footer__box-main{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+@media(max-width:600px){
+    .header__nav-left{
+        flex-direction: column;
+        align-items: center;
+    }
+    .header__nav-box-right{
+        margin-top: 71px;
+    }
+}
+@media(max-width:550px){
+    .main__box-bottom-right{
+        margin-left: 10px;
+    }
+    .main__box-bottom-left{
+        margin-right: 10px;
+    }
+    .header__icon{
+        margin-top: 60px;
+    }
+    p{
+        font-size: 4px;
+    }
+    .main__box-bottom-products-title{
+        font-size: 15px;
+    }
+    .main__box-products-img{
+        height: 125px;
+        height: 150px;
+    }
+    .main__box-text{
+        font-size: 10px;
+    }
+    .main__box-link{
+        font-size: 10px;
+    }
+    .main__box-bottom-products-list{
+        height: 310px;
+        width: 200px;
+    }
+    .headphones{
+        width: 250px;
+        height: 250px;
+    }
+    .image{
+        width: 110px;
+        height: 350px;
+    }
+    .img-headphones{
+        width: 250px;
+        height: 300px;
+    }
+    .footer__box-logo{
+        width: 100px;
+    }
+    .footer__box-list-link{
+        font-size: 15px;
+    }
+    .footer__box-icon{
+        width: 50px;
+        height: 50px;
+    }
+    .nav__box-right{
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .nav__box-left{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .header__main-title{
+        font-size: 40px;
+    }
+    .header__main-button{
+        font-size: 15px;
+    }
+    
+
+}
